@@ -1,0 +1,78 @@
+.container {
+	width: 100%;
+	height: auto;
+}
+.container .inner-container {
+	width: 100%;
+	height: auto;	
+}
+.container .inner-container .index {
+	width: 100%;
+	height: auto;
+}
+.container .inner-container .index .sections {
+	height: auto;
+	flex: 0 1 1400px;
+}
+.container .inner-container .index .sections .section.sec1 {
+	width: 100%;
+	min-height: calc( 100vh - 65px - 70px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con {
+	width: 600px;
+	height: 540px;
+	background: url(../../img/typewriter.png) no-repeat 100% / cover;
+}
+
+
+
+.typing {
+}
+.typing p {
+	margin: 40px auto 0 auto;
+  width: 20ch;
+  height: 1em;
+  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #000000;
+  font-family: 'Zilla Slab', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.sec-con  .btn-box {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.sec-con  .btn-box .btn {
+	font-family: 'Zilla Slab', sans-serif;
+	color: #ffffff;
+	background: #000000;
+	border: 2px solid #000000;
+	padding: 0 5px;
+	transition: all 0.2s;
+	font-size: 16px;
+	cursor: pointer;
+}
+.sec-con  .btn-box .btn:hover {
+	color: #000000;
+	background: #ffffff;
+}

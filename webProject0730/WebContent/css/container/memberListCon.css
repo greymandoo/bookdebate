@@ -1,0 +1,39 @@
+.memberList {
+	font-family: 'kanit', sans-serif;
+}
+.memberList .sections .section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc( 100vh - 65px - 70px);
+}
+.memberList .sections .section .sec-con {
+	flex: 0 1 800px;
+}
+.memberList .sections .section .sec-con .title {
+	padding-bottom : 20px;
+	text-align: center;
+}
+table {
+	width: 100%;
+	background: #eeeeee;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+}
+table,td,tr,th {
+	border-collapse: collapse;
+}
+table tr th {
+	padding: 5px 0;
+	border-bottom: 2px solid #666666;
+}
+table tbody tr td {
+	padding: 5px 0;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #999999;
+}
+table tbody tr:last-child td {
+	border-bottom: none;
+}

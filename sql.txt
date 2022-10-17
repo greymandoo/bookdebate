@@ -1,0 +1,44 @@
+create table member_p01(
+userId varchar2(20),
+userPw varchar2(20) not null,
+username varchar2(20) not null,
+email varchar2(40) not null,
+joindate date not null,
+primary key(userid)
+);
+
+create table book_p01(
+bookNo varchar2(13) not null,
+b_title varchar2(200) not null,
+author varchar2(50) not null,
+publisher varchar2(50) not null,
+p_date date not null,
+introduction varchar2(1000),
+cover varchar2(100),
+primary key(bookNo,b_title)
+);
+
+create sequence articleno_seq increment by 1 start with 1 nocycle;
+
+create table board_p01(
+articleno number(10),
+parentno number(10) default 0,
+title varchar2(500) not null,
+content varchar2(4000),
+userid varchar2(20) not null,
+writedate date default sysdate not null,
+b_title varchar2(200),
+bookNo varchar2(13),
+constraint fk_userid foreign key(userid) references member_p01(userid),
+constraint fk_book foreign key(b_title,bookNo) references book_p01(b_title,bookNo),
+primary key(articleno)
+);
+
+관리자 계정
+insert into member_p01 values('kdkadmin','1234','admin','admin@admin.com',sysdate);
+
+이미지 파일 업로드 폴더 경로 지정
+BookInsertCommand
+BookModifyCommand
+BookAjaxDeleteCommand
+세 개의 클래스에서 BOOK_COVER_REPO 수정

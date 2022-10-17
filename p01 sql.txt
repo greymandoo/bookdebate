@@ -1,0 +1,21 @@
+create table member_p01(
+userId varchar2(20),
+userPw varchar2(20) not null,
+username varchar2(20) not null,
+email varchar2(40) not null,
+joindate date not null,
+primary key(userid)
+);
+
+create table board_p01(
+articleno number(10),
+parentno number(10) default 0,
+title varchar2(500) not null,
+content varchar2(4000),
+userid varchar2(20) not null,
+writedate date default sysdate not null,
+constraint fk_userid foreign key(userid) references member_p01(userid),
+primary key(articleno)
+);
+
+create sequence articleno_seq increment by 1 start with 1 nocycle;

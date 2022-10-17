@@ -1,0 +1,158 @@
+.articleList {
+	font-family: 'kanit', sans-serif;
+}
+.section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc( 100vh - 65px - 70px);
+}
+.sec-con  {
+	flex: 0 1 800px;
+}
+.sec-con  .title {
+	padding-bottom : 15px;
+	text-align: center;
+}
+.sec-con .noArticles {
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+
+table {
+	width: 100%;
+}
+table,td,tr,th {
+	border-collapse: collapse;
+}
+table tr th {
+	padding: 5px 0;
+	border-bottom: 2px solid #666666;
+	border-top: 1px solid #999999;
+	font-size: 14px;
+}
+table tr td {
+	padding: 5px 0;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #999999;
+}
+table tr td:first-child {
+	width: 10%;
+}
+table tr th:first-child {
+	width: 10%;
+}
+table tr td:nth-child(2) {
+	width: 20%;
+}
+table tr th:nth-child(2) {
+	width: 20%;
+}
+table tr td:nth-child(3) {
+	max-width: 400px;
+	text-align: left;
+	word-break: break-all;
+}
+table tr th:nth-child(3) {
+	max-width: 400px;
+}
+table tr td:nth-child(3) a:hover {
+	text-decoration: underline;
+}
+table tr td:nth-child(4) {
+	width: 20%;
+}
+table tr th:nth-child(4) {
+	width: 20%;
+}
+
+
+.sec-con .page-box {
+	margin-top: 10px;
+}
+.sec-con .page-box ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.sec-con .page-box ul li a {
+	font-size: 18px;
+	line-height: 24px;
+}
+.sec-con .page-box ul li a:hover {
+	text-decoration: underline;
+}
+.sec-con .page-box ul li a .bi {
+	font-size: 14px;
+}
+.sec-con .page-box ul li a.now {
+	color: #ee0000;
+}
+.sec-con .page-box ul li a.now:hover {
+	text-decoration: none;
+}
+
+.sec-con .search-box {
+	width: 400px;
+	margin: 0 auto;
+}
+.sec-con .search-box form {
+	border: 2px solid #cccccc;
+	display: flex;
+	justify-content: center;
+}
+.sec-con .search-box form select {
+	padding: 5px 0;
+	cursor: pointer;
+	outline: #cccccc;
+	border: #cccccc;
+	background: #cccccc;
+}
+.sec-con .search-box form select:focus {
+	outline: 1px solid #000000;
+}
+.sec-con .search-box form input {
+	padding: 5px 0;
+	border: none;
+	outline: none;
+	background: none;
+}
+.sec-con .search-box form input#searching {
+	text-indent: 5px;
+	width: 260px;
+	background: #ffffff;
+}
+.sec-con .search-box form input#searchBtn {
+	background: #cccccc;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+
+
+
+
+.sec-con  .btn-box {
+	display: flex;
+	justify-content: right;
+	margin-top: 10px;
+}
+.sec-con  .btn-box .btn {
+	font-family: inherit;
+	color: #ffffff;
+	background: #ee0000;
+	border: 2px solid #ee0000;
+	padding: 0 5px;
+	transition: all 0.2s;
+	font-size: 16px;
+	cursor: pointer;
+}
+.sec-con  .btn-box .btn:hover {
+	color: #ee0000;
+	background: #ffffff;
+}

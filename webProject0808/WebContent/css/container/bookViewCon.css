@@ -1,0 +1,92 @@
+.bookView {
+	font-family: 'Zilla Slab', sans-serif;
+}
+.bookView .sections .sec1 .sec-con {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc( 100vh - 65px - 70px);
+}
+.bookView .sections .sec1 .sec-con .bookView-con {
+	width: 700px;
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+	background: url(../../img/paper.jpg) no-repeat 100% / cover;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+	padding: 0 40px 0 40px;
+}
+
+.img-box {
+	width: 278px;
+	height: 400px;
+	margin-top: 41px;
+}
+.img-box img {
+	width: 278px;
+	height: 400px;
+	display: block;
+	object-fit: contain;
+}
+
+/* .book-con */
+.book-con {
+	margin: 35px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.book-con ul {
+	margin-top: 10px;
+	width: 300px;
+}
+.book-con ul:first-child li {
+	margin: 15px 0;
+}
+.book-con ul li span:first-child {
+	font-size: 15px;
+	color: #444444;
+	font-weight: bold;
+}
+.book-con ul li span:last-child {
+	font-size: 15px;
+	color: #000000;
+	font-weight: bold;
+}
+.book-con ul li p:first-child {
+	font-size: 15px;
+	color: #444444;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.book-con ul li p:last-child {
+	font-size: 13px;
+	font-weight: normal;
+	height: 100px;
+	color: #000000;
+	font-weight: bold;
+	overflow: auto;
+	word-break: break-all;
+}
+
+
+/* btns */
+.btn-box {
+	display: flex;
+	justify-content: flex-end;
+	margin: 5px 0;
+}
+.btn {
+	font-family: inherit;
+	color: #000000;
+	transition: all 0.2s;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;	
+}
+.btn:hover {
+	text-decoration: underline;
+}
+

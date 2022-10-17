@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="webProject0811_mybatis">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mybatis-3.4.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mybatis-3.4.6/mybatis-3.4.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos/cos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc6/ojdbc6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3.3/commons-fileupload-1.3.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-dbcp.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-dbcp/tomcat-dbcp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.7/commons-io-2.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-jdbc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-jdbc/tomcat-jdbc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="webProject0811_mybatis"/>
+        <property name="java-output-path" value="/webProject0811_mybatis/build/classes"/>
+    </wb-module>
+</project-modules>

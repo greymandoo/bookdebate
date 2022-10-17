@@ -1,0 +1,16 @@
+.footer {
+	width: 100%;
+	height: auto;
+}
+.footer .inner-footer {
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.footer .inner-footer .fcon {
+	width: calc(100% - 50px);
+	line-height: 68px;
+	text-align: center;
+	font-size: 12px;
+	border-top: 2px ridge #888888;	
+}

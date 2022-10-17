@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/index.mo HTTP/1.1" 200 1706
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/css/index.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/img/logo.png HTTP/1.1" 200 7700
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/css/common/reset.css HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/css/common/footer.css HTTP/1.1" 200 289
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/css/common/header.css HTTP/1.1" 200 2034
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/css/container/indexCon.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:41 +0900] "GET /webProject0806/img/typewriter.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:43 +0900] "GET /webProject0806/articleList.bo HTTP/1.1" 200 8233
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:43 +0900] "GET /webProject0806/css/articleList.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:00:05:43 +0900] "GET /webProject0806/css/container/articleListCon.css HTTP/1.1" 304 -

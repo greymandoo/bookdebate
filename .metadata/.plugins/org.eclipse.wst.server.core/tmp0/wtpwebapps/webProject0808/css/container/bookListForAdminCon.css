@@ -1,0 +1,137 @@
+.bookList {
+	font-family: 'kanit', sans-serif;
+}
+.bookList .sections .section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc( 100vh - 65px - 70px);
+}
+.bookList .sections .section .sec-con {
+	flex: 0 1 1000px;
+}
+.bookList .sections .section .sec-con .title {
+	margin-bottom : 20px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.bookList .sections .section .sec-con .title a {
+	border: 2px solid #000000;
+	color: #ffffff;
+	background: #000000;
+	padding: 0 5px;
+	transition: all 0.2s;
+}
+.bookList .sections .section .sec-con .title a:hover {
+	color: #000000;
+	background: #ffffff;
+}
+
+table,tr,td,th {
+	border-collapse: collapse;
+}
+table {
+	width: 100%;
+	border-top: 2px solid #444444;
+	border-bottom: 2px solid #444444;
+}
+table tr th {
+	border-bottom: 2px solid #666666;
+	padding: 3px 0;
+	border-right: 1px solid #666666;
+}
+table tr th:last-child {
+	border-right: none;
+}
+table tr td {
+	border-bottom: 1px solid #666666;
+	border-right: 1px solid #666666;
+	text-align: center;
+	font-size: 14px;
+}
+table tr td:last-child {
+	border-right: none;
+}
+table tr:last-child td {
+	border-bottom: none;
+}
+table tr td img {
+	display: block;
+	width: 40px;
+	height: auto;
+	object-fit: contain;
+	margin: 0 auto;
+}
+
+
+
+.sp {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.sec-con .search-box {
+	width: 400px;
+}
+.sec-con .search-box form {
+	border: 2px solid #cccccc;
+	display: flex;
+	justify-content: center;
+}
+.sec-con .search-box form select {
+	padding: 5px 0;
+	cursor: pointer;
+	outline: #cccccc;
+	border: #cccccc;
+	background: #cccccc;
+}
+.sec-con .search-box form select:focus {
+	outline: 1px solid #000000;
+}
+.sec-con .search-box form input {
+	padding: 5px 0;
+	border: none;
+	outline: none;
+	background: none;
+}
+.sec-con .search-box form input#searching {
+	text-indent: 5px;
+	width: 260px;
+	background: #ffffff;
+}
+.sec-con .search-box form input#searchBtn {
+	background: #cccccc;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+
+
+
+.sec-con .page-box {
+	margin-top: 10px;
+}
+.sec-con .page-box ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.sec-con .page-box ul li a {
+	font-size: 18px;
+	line-height: 24px;
+}
+.sec-con .page-box ul li a:hover {
+	text-decoration: underline;
+}
+.sec-con .page-box ul li a .bi {
+	font-size: 14px;
+}
+.sec-con .page-box ul li a.now {
+	color: #ee0000;
+}
+.sec-con .page-box ul li a.now:hover {
+	text-decoration: none;
+}

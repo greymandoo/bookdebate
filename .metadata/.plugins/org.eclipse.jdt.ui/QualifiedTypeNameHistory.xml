@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.project.DTO.Member_p01"/>
+<fullyQualifiedTypeName name="org.project.DAO.BoardDAO"/>
+<fullyQualifiedTypeName name="org.apache.catalina.User"/>
+<fullyQualifiedTypeName name="org.project.command.UserBoardListCommand"/>
+<fullyQualifiedTypeName name="org.project.command.ExecuteCommand"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="org.project.command.BookInsertCommand"/>
+<fullyQualifiedTypeName name="org.project.ExecuteCommand"/>
+<fullyQualifiedTypeName name="org.apache.commons.fileupload.disk.DiskFileItemFactory"/>
+<fullyQualifiedTypeName name="org.apache.commons.fileupload.servlet.ServletFileUpload"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.apache.commons.fileupload.FileItem"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.project.BookDAO"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.project.command.BookListCommand"/>
+<fullyQualifiedTypeName name="org.project.command.BookAjaxISBNCheckCommand"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="org.project.command.BookSearchedListCommand"/>
+<fullyQualifiedTypeName name="org.project.DTO.Book_p01"/>
+<fullyQualifiedTypeName name="org.project.command.BookViewCommand"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="org.project.command.BookListForAdminCommand"/>
+<fullyQualifiedTypeName name="org.project.command.BookSearchedListForAdminCommand"/>
+<fullyQualifiedTypeName name="org.project.command.BookModifyViewCommand"/>
+<fullyQualifiedTypeName name="org.project.command.BookAjaxDeleteCommand"/>
+<fullyQualifiedTypeName name="org.project.DAO.BookDAO"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="org.project.command.BookModifyCommand"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+</qualifiedTypeNameHistroy>

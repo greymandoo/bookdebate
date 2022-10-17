@@ -1,0 +1,76 @@
+.section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc( 100vh - 65px - 70px);
+}
+.sec1 .sec-con {
+	flex: 0 1 800px;
+	box-sizing: border-box;
+	padding: 30px 30px 20px 30px;
+	background: url(../../img/paper.jpg) no-repeat 100% / cover;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+}
+.sec1 .sec-con .article {
+	width: 100%;
+	height: auto;
+}
+.sec1 .sec-con form ul li:first-child {
+	padding-bottom: 15px;
+	text-indent: 5px;
+	border-bottom: 1px solid #999999;
+	display: flex;
+	justify-content: space-between;
+}
+.sec1 .sec-con form ul li.title label {
+	font-size: 16px;
+	font-family: 'kanit', sans-serif;
+}
+.sec1 .sec-con form ul li.title input {
+	border: none;
+	outline: none;
+	background: #ffffff;
+	width: calc( 100% - 50px );
+	padding: 5px 0;
+	text-indent: 5px;
+}
+.sec1 .sec-con form ul li.content {
+	padding: 20px 0;
+}
+.sec1 .sec-con form ul li.content textarea {
+	resize: none;
+	border: none;
+	outlint: none;
+	background: #ffffff;
+	width: 100%;
+	height: 400px;
+	padding: 15px 15px;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.sec1 .sec-con form ul li.content textarea:focus {
+	outline: none;
+}
+
+
+form ul li.btn-box {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+form ul li.btn-box .btn {
+	font-family: inherit;
+	color: #ffffff;
+	background: #ee0000;
+	border: 2px solid #ee0000;
+	padding: 3px 10px;
+	transition: all 0.2s;
+	font-size: 12px;
+	cursor: pointer;
+}
+form ul li.btn-box .btn:hover {
+	color: #ee0000;
+	background: #ffffff;
+}

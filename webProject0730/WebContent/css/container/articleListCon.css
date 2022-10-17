@@ -1,0 +1,90 @@
+.articleList {
+	font-family: 'kanit', sans-serif;
+}
+.section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc( 100vh - 65px - 70px);
+}
+.sec-con  {
+	flex: 0 1 800px;
+}
+.sec-con  .title {
+	padding-bottom : 15px;
+	text-align: center;
+}
+
+
+
+table {
+	width: 100%;
+	background: #eeeeee;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+}
+table,td,tr,th {
+	border-collapse: collapse;
+}
+table tr th {
+	padding: 5px 0;
+	border-bottom: 2px solid #666666;
+	font-size: 14px;
+}
+table tr td {
+	padding: 5px 0;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: 1px solid #999999;
+}
+table tr td:first-child {
+	width: 10%;
+}
+table tr th:first-child {
+	width: 10%;
+}
+table tr td:nth-child(2) {
+	width: 20%;
+}
+table tr th:nth-child(2) {
+	width: 20%;
+}
+table tr td:nth-child(3) {
+	width: 50%;
+	text-align: left;
+}
+table tr th:nth-child(3) {
+	width: 50%;
+}
+table tr td:nth-child(4) {
+	width: 20%;
+}
+table tr th:nth-child(4) {
+	width: 20%;
+}
+table tr:last-child td {
+	border-bottom: none;
+}
+
+
+
+.sec-con  .btn-box {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 25px;
+}
+.sec-con  .btn-box .btn {
+	font-family: inherit;
+	color: #ffffff;
+	background: #ee0000;
+	border: 2px solid #ee0000;
+	padding: 0 5px;
+	transition: all 0.2s;
+	font-size: 16px;
+	cursor: pointer;
+}
+.sec-con  .btn-box .btn:hover {
+	color: #ee0000;
+	background: #ffffff;
+}

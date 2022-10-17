@@ -1,0 +1,108 @@
+.login {
+	font-family: 'Kanit', sans-serif;
+}
+.login .sections .sec1 .sec-con {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc( 100vh - 65px - 70px);
+}
+.login .sections .sec1 .sec-con .login-con {
+	width: 700px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	background: url(../../img/paper.jpg) no-repeat 100% / cover;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+	padding: 0 30px 0 70px;
+}
+
+
+
+/* form */
+form {
+	margin: 40px 0;
+}
+form .title {
+	font-size: 24x;
+	line-height: 40px;
+}
+form ul {
+	margin-top: 10px;
+}
+form ul li.label {
+	margin-top: 10px;
+}
+form ul li:not(.label,.btn-box) {
+	margin-top: 5px;
+	border-bottom: 1px solid #444444;
+	width: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+form ul li.btn-box {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+form ul li label {
+	font-size: 14px;
+	color: #444444;
+}
+form ul li input:not(#loginBtn) {
+	font-family: inherit;
+	border: none;
+	outline: none;
+	background: none;
+	width: 250px;
+	text-indent: 2px;
+}
+form ul li input:focus {
+	outline: none;
+}
+form ul li:last-child span {
+	font-size: 12px;
+	color: #444444;
+}
+form ul li:last-child span a {
+	font-size: 14px;
+	color: #000000;
+}
+
+/* btns */
+form ul li input.btn {
+	font-family: inherit;
+	color: #ffffff;
+	background: #444444;
+	border: 2px solid #444444;
+	padding: 0 5px;
+	transition: all 0.2s;
+	font-size: 12px;
+	cursor: pointer;
+}
+form ul li input.btn:hover {
+	color: #444444;
+	background: #ffffff;
+}
+form ul li input#loginBtn {
+	font-size: 14px;
+	background: #ee0000;
+	border: 2px solid #ee0000;	
+}
+form ul li input#loginBtn:hover {
+	color: #ee0000;
+	background: #ffffff;
+}
+
+
+
+
+/* img */
+.login .sections .sec1 .sec-con .login-con .img-box {
+	padding: 40px 40px 0 0;
+}
+.login .sections .sec1 .sec-con .login-con .img-box img {
+	width: 200px;
+}

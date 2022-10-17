@@ -1,0 +1,10 @@
+db.setting.database.0=xe
+db.setting.dbsystem.0=Oracle
+db.setting.driver.class.name.0=oracle.jdbc.driver.OracleDriver
+db.setting.port.0=1521
+db.setting.server.0=localhost
+db.setting.url.0=jdbc\:oracle\:thin\:@localhost\:1521\:xe
+db.setting.use.default.driver.0=true
+db.setting.user.0=system
+eclipse.preferences.version=1
+setting.password.0=1234

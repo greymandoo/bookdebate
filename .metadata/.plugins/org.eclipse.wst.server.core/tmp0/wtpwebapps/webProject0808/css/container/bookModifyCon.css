@@ -1,0 +1,192 @@
+.bookAdd {
+	font-family: 'Kanit', sans-serif;
+}
+.bookAdd .sections .sec1 .sec-con {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc( 100vh - 65px - 70px);
+}
+.bookAdd .sections .sec1 .sec-con .bookAdd-con {
+	width: 700px;
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+	background: url(../../img/paper.jpg) no-repeat 100% / cover;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+	padding: 0 40px 0 40px;
+}
+
+.img-box {
+	width: 280px;
+	height: 402px;
+	border: 1px solid;
+	margin-top: 40px;
+}
+.img-box img {
+	width: 278px;
+	height: 400px;
+	display: block;
+	object-fit: contain;
+}
+
+/* form */
+form {
+	margin: 30px 0;
+}
+form .title {
+	line-height: 40px;
+}
+form ul {
+	margin-top: 10px;
+	width: 300px;
+}
+form ul li.one-line {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+form ul li.introduction-label {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+form ul li.file-box {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+form ul li.one-line label {
+	padding: 0 10px 0 0;
+}
+form ul li label {
+	font-size: 14px;
+	color: #444444;
+}
+form ul li:nth-child(5) label {
+	width: 160px;
+}
+form ul li input:not(#modifyBtn,#bookNo,#cover,#deletePopUpBtn) {
+	font-family: inherit;
+	border: none;
+	border-bottom: 1px solid #444444;
+	outline: none;
+	background: none;
+	width: 100%;
+	padding: 0 0 2px 2px;
+}
+form ul li input#bookNo {
+	font-family: inherit;
+	border: none;
+	outline: none;
+	background: none;
+	width: 100%;
+	padding: 0 0 2px 2px;
+}
+form ul li input:focus {
+	outline: none;
+}
+form ul li textarea {
+	width: 100%;
+	height: 70px;
+	outline: none;
+	resize: none;
+	background: none;
+	border: 1px solid #444444;
+	padding: 3px 3px;
+	font-family: inherit;
+}
+form ul li.file-box label {
+	padding-right: 20px;
+}
+
+/* btns */
+form ul li.btn-box {
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
+form ul li input.btn {
+	font-family: inherit;
+	color: #ffffff;
+	padding: 0 5px;
+	transition: all 0.2s;
+	font-size: 14px;
+	background: #ee0000;
+	border: 2px solid #ee0000;
+	cursor: pointer;	
+}
+form ul li input.btn:hover {
+	color: #ee0000;
+	background: #ffffff;
+}
+
+
+
+
+
+.deletePopUp {
+	display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 50px;
+}
+.deletePopUp .delete {
+	width: 100%;
+	height: calc( 100vh - 65px - 70px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.deletePopUp .delete .cont {
+	background-color: #fefefe;
+	margin-top: 5%;
+  padding: 40px 40px 30px 40px;
+  box-shadow:rgba(0, 0, 0, 0.5) 0 8px 10px;
+  width: 500px;
+ 	font-family: 'Zilla Slab', sans-serif;
+}
+.deletePopUp .delete .cont form {
+	margin: 10px 0;
+	width: 100%;
+}
+.deletePopUp .delete .cont form ul {
+	width: 100%;
+}
+.deletePopUp .delete .cont form ul li:first-child {
+	font-size: 14px;
+	color: #ee0000;
+	font-weight: bold;
+	margin: 25px 0 15px 0;
+}
+.deletePopUp .cont form ul li:last-child {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 15px;
+}
+.deletePopUp .cont form ul li:last-child input#closePopUpBtn {
+	color: #ffffff;
+	background: #000000;
+	border: 2px solid #000000;
+	padding: 3px 10px;
+	transition: all 0.2s;
+	font-size: 16px;
+	cursor: pointer;
+}
+.deletePopUp .cont form ul li:last-child input#deleteBtn {
+	color: #ffffff;
+	background: #ee0000;
+	border: 2px solid #ee0000;
+	padding: 3px 10px;
+	transition: all 0.2s;
+	font-size: 16px;
+	cursor: pointer;
+}
